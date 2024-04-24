@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: black;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.circle {
+  padding: 25px 40px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+/* stopWatch */
+
+.box {
+  width: 200px;
+  height: 100px;
+  margin: auto;
+  background-color: cadetblue;
+}
+
+.btn_strat {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.time {
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 10px;
+  font-size: 40px;
+}
+
+.btn {
+  padding: 10px 20px;
+}
+
+/* counter */
+
+.counter {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number {
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.sign {
+  padding: 5px 20px;
+  font-size: 20px;
+}
+
+/* accdorian */
+
+.acc_center {
+  width: 600px;
+  margin: auto;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.acc_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.acc_title {
+  margin-bottom: 25px;
+}
+/* 
+.acc_desc {
+  display: none;
+} */
+
+.acc_add {
+  padding: 10px 20px;
+}
